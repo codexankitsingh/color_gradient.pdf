@@ -4,7 +4,7 @@ This repository contains a tool to generate color gradient PDFs using CSS, JavaS
 
 ## Overview
 
-The **Color Gradient PDF Generator** allows users to create PDF documents with customizable color gradients. This tool is particularly useful for designers and developers who need to generate visually appealing documents programmatically.
+The **Color Gradient PDF Generator** allows users to create PDF documents with customizable color gradients. This tool is particularly useful for designers and developers who need to generate visually appealing documents programmatically.It also gives corresponding CSS code for the generated gradient which can further be used for design purposes
 
 ## Features
 
