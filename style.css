@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.heading {
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-size: 2.5em;
+    background-color: rgba(255, 255, 255, 0.221);
+    color: #3a2d2d;
+    border-radius: 2rem;
+    box-shadow: 0 4px 15px rgba(25, 24, 24, 0.883);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.145);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(149, 21, 21, 0.787);
+    width: 50%;
+    max-width: 600px;
+}
+
+#leftcolor {
+
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+#rightcolor {
+
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.css-output {
+    display: inline-block;
+    margin: 2rem;
+    padding: 1.5rem;
+    background-color: rgba(255, 245, 238, 0.8);
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Courier New', monospace;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.change-gradient {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.change-gradient:hover {
+    background-color: rgba(238, 230, 230, 0.9);
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.random-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.random-button button {
+    color: #ecf0f1;
+  font-size: 17px;
+  background-color: #37a88ed0;
+  border: 1px solid #f39c12;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 0px 6px 0px #d35400;
+  transition: all 0.1s;
+}
+
+.random-button button:hover {
+    cursor: pointer;
+    background-color: rgba(52, 54, 42, 0.425);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
